@@ -22,7 +22,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:szilvheviz@heviz-programkalauz
-DTSTAMP:20261010T181129Z
+DTSTAMP:20261010T181220Z
 DTSTART;TZID=Europe/Budapest:20261231T200000
 DTEND;TZID=Europe/Budapest:20261231T220000
 SUMMARY:Hévízi szilveszter – utcabál és polgármesteri köszöntő
