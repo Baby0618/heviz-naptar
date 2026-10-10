@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hevizi Programkalauz 50+//HU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:rita@heviz-programkalauz
+DTSTAMP:20261010T181129Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:RITA – színházi előadás (Isten hozott Pergine! sorozat)
+LOCATION:Balaton Színház\, Keszthely
+DESCRIPTION:Balaton Színház\, színházterem – Keszthely\nAz időpontot
+  indulás előtt érdemes ellenőrizni.\nRészletek: https://goldmarkmk.hu
+ /programok/\nHévízi Programkalauz: https://claude.ai/artifact/GDzPLirYRo
+ m6AGjoNRstiC
+URL:https://goldmarkmk.hu/programok/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Holnap: RITA – színházi előadás (Isten hozott Pergine! so
+ rozat)
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ma: RITA – színházi előadás (Isten hozott Pergine! soroza
+ t)
+TRIGGER:PT8H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

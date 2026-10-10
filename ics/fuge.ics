@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hevizi Programkalauz 50+//HU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:fuge@heviz-programkalauz
+DTSTAMP:20261010T181129Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261012
+SUMMARY:FügeFeszt
+LOCATION:Egry József strand\, Badacsony
+DESCRIPTION:Egry József strand – Badacsony\nFügés ételek\, termelők\
+ , zene a Balaton partján.\nRészletek: https://badacsonyinfo.hu/badacsony
+ -programok-2026/\nHévízi Programkalauz: https://claude.ai/artifact/GDzPL
+ irYRom6AGjoNRstiC
+URL:https://badacsonyinfo.hu/badacsony-programok-2026/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Holnap: FügeFeszt
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ma: FügeFeszt
+TRIGGER:PT8H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

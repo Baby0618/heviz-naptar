@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hevizi Programkalauz 50+//HU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:husvet@heviz-programkalauz
+DTSTAMP:20261010T181129Z
+DTSTART;VALUE=DATE:20270328
+DTEND;VALUE=DATE:20270329
+SUMMARY:Húsvétvasárnap – ünnepi szentmisék és istentiszteletek
+LOCATION:Hévíz és környéke
+DESCRIPTION:Templomok\, gyülekezetek – Hévíz és környéke\nA húsvé
+ ti szertartások rendje a miserend.hu oldalon és a gyülekezetek honlapj
+ án lesz elérhető.\nRészletek: https://miserend.hu/\nHévízi Programka
+ lauz: https://claude.ai/artifact/GDzPLirYRom6AGjoNRstiC
+URL:https://miserend.hu/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Holnap: Húsvétvasárnap – ünnepi szentmisék és istentisz
+ teletek
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ma: Húsvétvasárnap – ünnepi szentmisék és istentisztele
+ tek
+TRIGGER:PT8H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hevizi Programkalauz 50+//HU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:lenni@heviz-programkalauz
+DTSTAMP:20261010T181129Z
+DTSTART;VALUE=DATE:20270409
+DTEND;VALUE=DATE:20270410
+SUMMARY:Lenni vagy nem lenni – vígjáték\, bemutató
+LOCATION:Hevesi Sándor Színház\, Zalaegerszeg
+DESCRIPTION:Hevesi Sándor Színház\, nagyszínpad – Zalaegerszeg\nRende
+ ző: Dicső Dániel.\nRészletek: https://deszkavizio.hu/kihirdette-2026-2
+ 7-es-evadat-a-zalaegerszegi-hevesi-sandor-szinhaz/\nHévízi Programkalauz
+ : https://claude.ai/artifact/GDzPLirYRom6AGjoNRstiC
+URL:https://deszkavizio.hu/kihirdette-2026-27-es-evadat-a-zalaegerszegi-hev
+ esi-sandor-szinhaz/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Holnap: Lenni vagy nem lenni – vígjáték\, bemutató
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ma: Lenni vagy nem lenni – vígjáték\, bemutató
+TRIGGER:PT8H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

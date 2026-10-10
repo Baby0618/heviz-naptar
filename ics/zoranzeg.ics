@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hevizi Programkalauz 50+//HU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:zoranzeg@heviz-programkalauz
+DTSTAMP:20261010T181129Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Zorán – turné 2026
+LOCATION:Art Mozi\, Zalaegerszeg
+DESCRIPTION:Art Mozi – Zalaegerszeg\nA források eltérnek: november 30. 
+ vagy december 4.\nAz időpontot indulás előtt érdemes ellenőrizni.\nR
+ észletek: https://gotravel.hu/programok-zalaegerszeg\nHévízi Programkal
+ auz: https://claude.ai/artifact/GDzPLirYRom6AGjoNRstiC
+URL:https://gotravel.hu/programok-zalaegerszeg
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Holnap: Zorán – turné 2026
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ma: Zorán – turné 2026
+TRIGGER:PT8H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

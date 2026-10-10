@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hevizi Programkalauz 50+//HU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:abba@heviz-programkalauz
+DTSTAMP:20261010T181129Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:ABBA & Boney M. koncertshow
+LOCATION:Hevesi Sándor Művelődési Központ\, Nagykanizsa
+DESCRIPTION:Hevesi Sándor Művelődési Központ – Nagykanizsa\nAz időp
+ ontot indulás előtt érdemes ellenőrizni.\nRészletek: https://gotravel
+ .hu/programok-nagykanizsa\nHévízi Programkalauz: https://claude.ai/artif
+ act/GDzPLirYRom6AGjoNRstiC
+URL:https://gotravel.hu/programok-nagykanizsa
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Holnap: ABBA & Boney M. koncertshow
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ma: ABBA & Boney M. koncertshow
+TRIGGER:PT8H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

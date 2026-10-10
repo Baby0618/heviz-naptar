@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hevizi Programkalauz 50+//HU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:szenteste@heviz-programkalauz
+DTSTAMP:20261010T181129Z
+DTSTART;VALUE=DATE:20261224
+DTEND;VALUE=DATE:20261225
+SUMMARY:Szenteste: éjféli misék\, a Tófürdő 14 óráig nyitva
+LOCATION:Hévíz és környéke
+DESCRIPTION:Templomok\; Hévízi Tófürdő – Hévíz és környéke\nAz 
+ éjféli misék időpontja templomonként eltér\, a miserend.hu oldalon k
+ ereshető.\nRészletek: https://miserend.hu/\nHévízi Programkalauz: http
+ s://claude.ai/artifact/GDzPLirYRom6AGjoNRstiC
+URL:https://miserend.hu/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Holnap: Szenteste: éjféli misék\, a Tófürdő 14 óráig ny
+ itva
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ma: Szenteste: éjféli misék\, a Tófürdő 14 óráig nyitva
+TRIGGER:PT8H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

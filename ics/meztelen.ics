@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hevizi Programkalauz 50+//HU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:meztelen@heviz-programkalauz
+DTSTAMP:20261010T181129Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:Meztelen igazság – zenés vígjáték
+LOCATION:Kanizsai Kulturális Központ\, Nagykanizsa
+DESCRIPTION:Kanizsai Kulturális Központ – Nagykanizsa\nAz időpontot in
+ dulás előtt érdemes ellenőrizni.\nRészletek: https://www.programturiz
+ mus.hu/naptar-2026-10-21.html?f=90&fs=dc\nHévízi Programkalauz: https://
+ claude.ai/artifact/GDzPLirYRom6AGjoNRstiC
+URL:https://www.programturizmus.hu/naptar-2026-10-21.html?f=90&fs=dc
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Holnap: Meztelen igazság – zenés vígjáték
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ma: Meztelen igazság – zenés vígjáték
+TRIGGER:PT8H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hevizi Programkalauz 50+//HU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:tanchaz@heviz-programkalauz
+DTSTAMP:20261010T181129Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:Táncház a Re-Folk zenekarral
+LOCATION:Goldmark Károly Művelődési Központ\, Keszthely
+DESCRIPTION:Goldmark Károly Művelődési Központ\, nagyterem – Keszthe
+ ly\nRészletek: https://goldmarkmk.hu/programok/\nHévízi Programkalauz: 
+ https://claude.ai/artifact/GDzPLirYRom6AGjoNRstiC
+URL:https://goldmarkmk.hu/programok/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Holnap: Táncház a Re-Folk zenekarral
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ma: Táncház a Re-Folk zenekarral
+TRIGGER:PT8H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

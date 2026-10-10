@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hevizi Programkalauz 50+//HU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:fruet@heviz-programkalauz
+DTSTAMP:20261010T181129Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:Ivo Fruet kiállításmegnyitó
+LOCATION:Balaton Színház\, Keszthely
+DESCRIPTION:Balaton Színház\, Simándy terem – Keszthely\nIngyenes.\nAz
+  időpontot indulás előtt érdemes ellenőrizni.\nRészletek: https://go
+ ldmarkmk.hu/programok/\nHévízi Programkalauz: https://claude.ai/artifact
+ /GDzPLirYRom6AGjoNRstiC
+URL:https://goldmarkmk.hu/programok/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Holnap: Ivo Fruet kiállításmegnyitó
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ma: Ivo Fruet kiállításmegnyitó
+TRIGGER:PT8H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

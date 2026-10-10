@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hevizi Programkalauz 50+//HU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:zimmerkan@heviz-programkalauz
+DTSTAMP:20261010T181129Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Hans Zimmer filmzenéi gyertyafényben
+LOCATION:Medgyaszay Ház\, Nagykanizsa
+DESCRIPTION:Medgyaszay Ház – Nagykanizsa\nRészletek: https://gotravel.h
+ u/programok-nagykanizsa\nHévízi Programkalauz: https://claude.ai/artifac
+ t/GDzPLirYRom6AGjoNRstiC
+URL:https://gotravel.hu/programok-nagykanizsa
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Holnap: Hans Zimmer filmzenéi gyertyafényben
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ma: Hans Zimmer filmzenéi gyertyafényben
+TRIGGER:PT8H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

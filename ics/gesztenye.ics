@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hevizi Programkalauz 50+//HU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:gesztenye@heviz-programkalauz
+DTSTAMP:20261010T181129Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261012
+SUMMARY:XI. Gesztenye Fesztivál
+LOCATION:Kertvárosi Kertészeti Centrum\, Keszthely
+DESCRIPTION:Kertvárosi Kertészeti Centrum – Keszthely\nGesztenyés éte
+ lek\, kirakodóvásár\, programok. Vasárnap 17 óráig.\nRészletek: htt
+ ps://www.heviz.hu/hu/programok/list/programok\nHévízi Programkalauz: htt
+ ps://claude.ai/artifact/GDzPLirYRom6AGjoNRstiC
+URL:https://www.heviz.hu/hu/programok/list/programok
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Holnap: XI. Gesztenye Fesztivál
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ma: XI. Gesztenye Fesztivál
+TRIGGER:PT8H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

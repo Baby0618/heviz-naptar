@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hevizi Programkalauz 50+//HU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ejszakai@heviz-programkalauz
+DTSTAMP:20261010T181129Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:Éjszakai fürdőzés
+LOCATION:Bonvital Hotel\, Hévíz
+DESCRIPTION:Bonvital Hotel – Hévíz\nAz időpontot indulás előtt érde
+ mes ellenőrizni.\nRészletek: https://www.programturizmus.hu/ajanlat-hevi
+ zi-programok-oktober.html\nHévízi Programkalauz: https://claude.ai/artif
+ act/GDzPLirYRom6AGjoNRstiC
+URL:https://www.programturizmus.hu/ajanlat-hevizi-programok-oktober.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Holnap: Éjszakai fürdőzés
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ma: Éjszakai fürdőzés
+TRIGGER:PT8H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

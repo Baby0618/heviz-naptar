@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hevizi Programkalauz 50+//HU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:marton@heviz-programkalauz
+DTSTAMP:20261010T181129Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Márton-napi vigasság – újborszentelés\, libazsíros kenyér
+LOCATION:Bazalt templom\, Badacsonytomaj
+DESCRIPTION:Bazalttemplom előtti tér – Badacsonytomaj\nHagyományosan a
+  Márton-naphoz legközelebbi szombaton. A 2026-os időpontot még nem tet
+ ték közzé.\nAz időpontot indulás előtt érdemes ellenőrizni.\nRész
+ letek: https://badacsony.com/list-page/1231-programok/5518-eves-esemenynap
+ tar\nHévízi Programkalauz: https://claude.ai/artifact/GDzPLirYRom6AGjoNR
+ stiC
+URL:https://badacsony.com/list-page/1231-programok/5518-eves-esemenynaptar
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Holnap: Márton-napi vigasság – újborszentelés\, libazsír
+ os kenyér
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ma: Márton-napi vigasság – újborszentelés\, libazsíros k
+ enyér
+TRIGGER:PT8H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

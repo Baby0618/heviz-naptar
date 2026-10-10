@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hevizi Programkalauz 50+//HU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:vagany@heviz-programkalauz
+DTSTAMP:20261010T181129Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:100 + 1 év vagány – Kőrösi Csoma Sándor Klub
+LOCATION:Balaton Színház\, Keszthely
+DESCRIPTION:Balaton Színház\, Simándy terem – Keszthely\nIngyenes.\nEl
+ őadó: Nagy Tamás cserkészparancsnok.\nRészletek: https://www.programt
+ urizmus.hu/ajanlat-ismeretterjeszto-eloadasok-keszthely.html\nHévízi Pro
+ gramkalauz: https://claude.ai/artifact/GDzPLirYRom6AGjoNRstiC
+URL:https://www.programturizmus.hu/ajanlat-ismeretterjeszto-eloadasok-keszt
+ hely.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Holnap: 100 + 1 év vagány – Kőrösi Csoma Sándor Klub
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ma: 100 + 1 év vagány – Kőrösi Csoma Sándor Klub
+TRIGGER:PT8H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

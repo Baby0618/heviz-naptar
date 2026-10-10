@@ -1,0 +1,46 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hevizi Programkalauz 50+//HU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:Europe/Budapest
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:hostenor10@heviz-programkalauz
+DTSTAMP:20261010T181129Z
+DTSTART;TZID=Europe/Budapest:20261010T190000
+DTEND;TZID=Europe/Budapest:20261010T210000
+SUMMARY:A hőstenor – Ken Ludwig bohózata
+LOCATION:Hevesi Sándor Színház\, Zalaegerszeg
+DESCRIPTION:Hevesi Sándor Színház\, nagyszínpad – Zalaegerszeg\nAz é
+ vad új bemutatója\, rendező: Lipics Zsolt.\nRészletek: https://www.hev
+ esisandorszinhaz.hu/\nHévízi Programkalauz: https://claude.ai/artifact/G
+ DzPLirYRom6AGjoNRstiC
+URL:https://www.hevesisandorszinhaz.hu/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Holnap: A hőstenor – Ken Ludwig bohózata
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:2 óra múlva: A hőstenor – Ken Ludwig bohózata
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

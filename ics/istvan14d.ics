@@ -1,0 +1,48 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hevizi Programkalauz 50+//HU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:Europe/Budapest
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:istvan14d@heviz-programkalauz
+DTSTAMP:20261010T181129Z
+DTSTART;TZID=Europe/Budapest:20261014T150000
+DTEND;TZID=Europe/Budapest:20261014T170000
+SUMMARY:István\, a király – rockopera (délutáni előadás)
+LOCATION:Hevesi Sándor Színház\, Zalaegerszeg
+DESCRIPTION:Hevesi Sándor Színház – Zalaegerszeg\nNappali időpont\, s
+ ötétedés előtt haza lehet érni. Címszerepben Nemes Tibor.\nRészlete
+ k: https://www.hevesisandorszinhaz.hu/\nHévízi Programkalauz: https://cl
+ aude.ai/artifact/GDzPLirYRom6AGjoNRstiC
+URL:https://www.hevesisandorszinhaz.hu/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Holnap: István\, a király – rockopera (délutáni előadás
+ )
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:2 óra múlva: István\, a király – rockopera (délutáni el
+ őadás)
+TRIGGER:-PT2H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

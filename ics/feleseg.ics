@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hevizi Programkalauz 50+//HU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:feleseg@heviz-programkalauz
+DTSTAMP:20261010T181129Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:A feleség negyvennél kezdődik – vígjáték
+LOCATION:Balaton Színház\, Keszthely
+DESCRIPTION:Balaton Színház\, színházterem – Keszthely\nRészletek: h
+ ttps://goldmarkmk.hu/programok/szinhazi-eloadasok/\nHévízi Programkalauz
+ : https://claude.ai/artifact/GDzPLirYRom6AGjoNRstiC
+URL:https://goldmarkmk.hu/programok/szinhazi-eloadasok/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Holnap: A feleség negyvennél kezdődik – vígjáték
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ma: A feleség negyvennél kezdődik – vígjáték
+TRIGGER:PT8H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

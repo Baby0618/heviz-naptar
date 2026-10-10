@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hevizi Programkalauz 50+//HU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:hajo17@heviz-programkalauz
+DTSTAMP:20261010T181129Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261019
+SUMMARY:Őszi hajókirándulás a Balatonon
+LOCATION:Badacsonyi kikötő\, Badacsonytomaj
+DESCRIPTION:Badacsonyi kikötő – Badacsony\nHétvégi sétahajózás\, a
+  menetrendet a kikötőben érdemes megnézni.\nAz időpontot indulás el
+ őtt érdemes ellenőrizni.\nRészletek: https://badacsonyinfo.hu/badacson
+ y-programok-2026/\nHévízi Programkalauz: https://claude.ai/artifact/GDzP
+ LirYRom6AGjoNRstiC
+URL:https://badacsonyinfo.hu/badacsony-programok-2026/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Holnap: Őszi hajókirándulás a Balatonon
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ma: Őszi hajókirándulás a Balatonon
+TRIGGER:PT8H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hevizi Programkalauz 50+//HU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:okt23@heviz-programkalauz
+DTSTAMP:20261010T181129Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Nemzeti ünnep – városi megemlékezések
+LOCATION:Minden környékbeli település
+DESCRIPTION:Főterek\, emlékművek – Minden környékbeli település\nI
+ ngyenes.\nA fürdőkben ez kiemelt nap: a nyugdíjas jegy több helyen nem
+  érvényes vagy drágább.\nAz időpontot indulás előtt érdemes ellen
+ őrizni.\nRészletek: https://www.heviz.hu/hu/programok/list/programok\nH
+ évízi Programkalauz: https://claude.ai/artifact/GDzPLirYRom6AGjoNRstiC
+URL:https://www.heviz.hu/hu/programok/list/programok
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Holnap: Nemzeti ünnep – városi megemlékezések
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ma: Nemzeti ünnep – városi megemlékezések
+TRIGGER:PT8H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hevizi Programkalauz 50+//HU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:keszvasar@heviz-programkalauz
+DTSTAMP:20261010T181129Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20270104
+SUMMARY:Keszthelyi karácsonyi vásár és advent
+LOCATION:Fő tér\, Keszthely
+DESCRIPTION:Fő tér és belváros – Keszthely\nIngyenes.\nA részletes a
+ dventi programot a város később teszi közzé.\nAz időpontot indulás 
+ előtt érdemes ellenőrizni.\nRészletek: https://gotravel.hu/programok-k
+ eszthely\nHévízi Programkalauz: https://claude.ai/artifact/GDzPLirYRom6A
+ GjoNRstiC
+URL:https://gotravel.hu/programok-keszthely
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Holnap: Keszthelyi karácsonyi vásár és advent
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ma: Keszthelyi karácsonyi vásár és advent
+TRIGGER:PT8H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

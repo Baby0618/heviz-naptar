@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hevizi Programkalauz 50+//HU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:marc15@heviz-programkalauz
+DTSTAMP:20261010T181129Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:Március 15. – városi ünnepség\, fáklyás felvonulás\, koszo
+ rúzás
+LOCATION:Hévíz
+DESCRIPTION:Több helyszínen – Hévíz\nIngyenes.\nÜnnepnap: a fürdők
+ ben kiemelt jegyárak lehetnek.\nRészletek: https://gotravel.hu/programok
+ -heviz\nHévízi Programkalauz: https://claude.ai/artifact/GDzPLirYRom6AGj
+ oNRstiC
+URL:https://gotravel.hu/programok-heviz
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Holnap: Március 15. – városi ünnepség\, fáklyás felvonu
+ lás\, koszorúzás
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ma: Március 15. – városi ünnepség\, fáklyás felvonulás
+ \, koszorúzás
+TRIGGER:PT8H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

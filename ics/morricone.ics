@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hevizi Programkalauz 50+//HU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:morricone@heviz-programkalauz
+DTSTAMP:20261010T181129Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+SUMMARY:Ennio Morricone filmzenéi gyertyafénynél
+LOCATION:Zalaegerszeg
+DESCRIPTION:Helyszín a jegyirodában – Zalaegerszeg\nAz időpontot indul
+ ás előtt érdemes ellenőrizni.\nRészletek: https://gotravel.hu/program
+ ok-zalaegerszeg\nHévízi Programkalauz: https://claude.ai/artifact/GDzPLi
+ rYRom6AGjoNRstiC
+URL:https://gotravel.hu/programok-zalaegerszeg
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Holnap: Ennio Morricone filmzenéi gyertyafénynél
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ma: Ennio Morricone filmzenéi gyertyafénynél
+TRIGGER:PT8H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

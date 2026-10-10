@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hevizi Programkalauz 50+//HU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:kovacskati@heviz-programkalauz
+DTSTAMP:20261010T181129Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Kovács Kati és zenekara – koncert
+LOCATION:Balaton Színház\, Keszthely
+DESCRIPTION:Balaton Színház\, színházterem – Keszthely\nA források e
+ ltérnek: október 31. vagy november 7. Jegyvásárlás előtt érdemes r
+ ákérdezni.\nAz időpontot indulás előtt érdemes ellenőrizni.\nRészl
+ etek: https://goldmarkmk.hu/programok/koncertek/\nHévízi Programkalauz: 
+ https://claude.ai/artifact/GDzPLirYRom6AGjoNRstiC
+URL:https://goldmarkmk.hu/programok/koncertek/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Holnap: Kovács Kati és zenekara – koncert
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ma: Kovács Kati és zenekara – koncert
+TRIGGER:PT8H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

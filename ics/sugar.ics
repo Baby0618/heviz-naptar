@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hevizi Programkalauz 50+//HU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:sugar@heviz-programkalauz
+DTSTAMP:20261010T181129Z
+DTSTART;VALUE=DATE:20270226
+DTEND;VALUE=DATE:20270227
+SUMMARY:Sugar (Van\, aki forrón szereti) – musical\, bemutató
+LOCATION:Hevesi Sándor Színház\, Zalaegerszeg
+DESCRIPTION:Hevesi Sándor Színház\, nagyszínpad – Zalaegerszeg\nRész
+ letek: https://deszkavizio.hu/kihirdette-2026-27-es-evadat-a-zalaegerszegi
+ -hevesi-sandor-szinhaz/\nHévízi Programkalauz: https://claude.ai/artifac
+ t/GDzPLirYRom6AGjoNRstiC
+URL:https://deszkavizio.hu/kihirdette-2026-27-es-evadat-a-zalaegerszegi-hev
+ esi-sandor-szinhaz/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Holnap: Sugar (Van\, aki forrón szereti) – musical\, bemutat
+ ó
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ma: Sugar (Van\, aki forrón szereti) – musical\, bemutató
+TRIGGER:PT8H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hevizi Programkalauz 50+//HU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:fenyvarazs@heviz-programkalauz
+DTSTAMP:20261010T181129Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20270104
+SUMMARY:Ünnepi Fényvarázs – adventi díszkivilágítás
+LOCATION:Hévíz
+DESCRIPTION:Belváros – Hévíz\nIngyenes.\nA részletes programot a vár
+ os később teszi közzé.\nRészletek: https://www.heviz.hu/hu/programok/
+ list/programok\nHévízi Programkalauz: https://claude.ai/artifact/GDzPLir
+ YRom6AGjoNRstiC
+URL:https://www.heviz.hu/hu/programok/list/programok
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Holnap: Ünnepi Fényvarázs – adventi díszkivilágítás
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ma: Ünnepi Fényvarázs – adventi díszkivilágítás
+TRIGGER:PT8H
+END:VALARM
+END:VEVENT
+END:VCALENDAR
